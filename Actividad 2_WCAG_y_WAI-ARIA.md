@@ -66,7 +66,6 @@ Se reemplazó el <div> por un <button> para mejorar la accesibilidad.
 También se añadió un atributo aria-label para describir la acción del botón a los lectores de pantalla.
 
 ## Ejercicio 4: Navegación sin estructura semántica
-
 Modificación: Usar etiquetas semánticas como <nav> y <ul> para la lista de navegación.
 ```
 <nav>
