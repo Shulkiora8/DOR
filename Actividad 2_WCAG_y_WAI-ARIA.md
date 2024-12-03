@@ -52,17 +52,17 @@ Se añadió el atributo alt para describir las imágenes, mejorando la accesibil
 ```
 
 Comentario:
-Se añadieron etiquetas <label> para asociar los campos con su descripción y mejorar la accesibilidad.
+Se añadieron etiquetas label para asociar los campos con su descripción y mejorar la accesibilidad.
 También se incluyó una validación de formulario con mensajes de error.
 
 ## Ejercicio 3: Botón que no es accesible para lectores de pantalla
 
-Modificación: Usar un <button> en lugar de un div y añadir un aria-label para describir la acción.
+Modificación: Usar un button en lugar de un div y añadir un aria-label para describir la acción.
 ```
 <button onclick="alert('¡Botón presionado!')" aria-label="Presionar botón">Presionar</button>
 ```
 Comentario:
-Se reemplazó el <div> por un <button> para mejorar la accesibilidad.
+Se reemplazó el div por un button para mejorar la accesibilidad.
 También se añadió un atributo aria-label para describir la acción del botón a los lectores de pantalla.
 
 ## Ejercicio 4: Navegación sin estructura semántica
@@ -81,7 +81,7 @@ Se añadió una estructura semántica usando <nav> para la navegación y <ul> pa
 
 ## Ejercicio 5: Tabla sin encabezados
 
-Modificación: Añadir etiquetas <th> para los encabezados de la tabla.
+Modificación: Añadir etiquetas th para los encabezados de la tabla.
 ```
 <table>
   <thead>
@@ -103,7 +103,7 @@ Modificación: Añadir etiquetas <th> para los encabezados de la tabla.
 </table>
 ```
 Comentario:
-Se añadieron etiquetas <th> para los encabezados de la tabla, mejorando la accesibilidad y la comprensión de los datos.
+Se añadieron etiquetas th para los encabezados de la tabla, mejorando la accesibilidad y la comprensión de los datos.
 
 ## Ejercicio 6: Contenido dinámico sin notificación
 
@@ -186,7 +186,7 @@ Se añadió el atributo aria-label al botón para describir mejor la acción a l
 
 ## Ejercicio 12: Blog con múltiples secciones
 
-Modificación: Añadir una estructura semántica con <article> y <section>.
+Modificación: Añadir una estructura semántica con article y section.
 ```
 <article>
   <h2>Artículo Reciente</h2>
@@ -198,7 +198,7 @@ Modificación: Añadir una estructura semántica con <article> y <section>.
 </article>
 ```
 Comentario:
-Se reorganizó el contenido en artículos utilizando <article> para una mejor organización semántica.
+Se reorganizó el contenido en artículos utilizando article para una mejor organización semántica.
 
 ## Ejercicio 13: Formulario de inscripción
 
@@ -225,11 +225,11 @@ Modificación: Añadir label para los campos.
 </form>
 ```
 Comentario:
-Se añadieron etiquetas <label> para asociar los campos del formulario con su descripción.
+Se añadieron etiquetas label para asociar los campos del formulario con su descripción.
 
 ## Ejercicio 14: Tabla de datos compleja
 
-Modificación: Añadir encabezados de tabla <th> y una descripción para la tabla con caption.
+Modificación: Añadir encabezados de tabla th y una descripción para la tabla con caption.
 ```
 <table border="1">
   <caption>Reporte Mensual de Ventas</caption>
@@ -258,7 +258,7 @@ Modificación: Añadir encabezados de tabla <th> y una descripción para la tabl
 </table>
 ```
 Comentario:
-Se añadió un <caption> para describir el contenido de la tabla y se incorporaron encabezados <th>.
+Se añadió un caption para describir el contenido de la tabla y se incorporaron encabezados <th>.
 
 ## Ejercicio 15: Menú interactivo
 
