@@ -77,7 +77,7 @@ Modificación: Usar etiquetas semánticas como nav y ul para la lista de navegac
 </nav>
 ```
 Comentario:
-Se añadió una estructura semántica usando <nav> para la navegación y <ul> para las listas.
+Se añadió una estructura semántica usando nav para la navegación y ul para las listas.
 
 ## Ejercicio 5: Tabla sin encabezados
 
