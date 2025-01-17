@@ -1,0 +1,125 @@
+<!--Elemento 1: Botón de Bootstrap
+
+Código original-->
+
+<button class="btn btn-primary">Enviar</button>
+
+
+<!--Código mejorado con WAI-ARIA-->
+
+<button class="btn btn-primary" role="button" aria-label="Enviar formulario">Enviar</button>
+
+
+
+<!--Elemento 2: Menú desplegable
+
+Código original-->
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Menú</button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Opción 1</a></li>
+    <li><a class="dropdown-item" href="#">Opción 2</a></li>
+  </ul>
+</div>
+
+
+<!--Código mejorado con WAI-ARIA-->
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
+    Menú
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a class="dropdown-item" role="menuitem" href="#">Opción 1</a></li>
+    <li><a class="dropdown-item" role="menuitem" href="#">Opción 2</a></li>
+  </ul>
+</div>
+
+
+<!--Elemento 3: Alerta de Bootstrap
+
+Código original-->
+
+<div class="alert alert-warning" role="alert">
+  ¡Advertencia! Esto es un mensaje de alerta.
+</div>
+
+
+<!--Código mejorado con WAI-ARIA-->
+
+<div class="alert alert-warning" role="alert" aria-live="assertive" aria-atomic="true">
+  ¡Advertencia! Esto es un mensaje de alerta.
+</div>
+
+
+<!--Elemento 4: Pestañas de Bootstrap
+
+Código original-->
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Inicio</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Perfil</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Contenido de inicio</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Contenido del perfil</div>
+</div>
+
+
+<!--Código mejorado con WAI-ARIA-->
+
+<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" aria-live="polite">
+  Contenido de inicio
+</div>
+
+
+<!--Elemento 5: Modal de Bootstrap
+
+Código original-->
+
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Título del modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Contenido del modal...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Código mejorado con WAI-ARIA-->
+
+<div class="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-describedby="modalDescription" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Título del modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body" id="modalDescription">
+        <p>Contenido del modal...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
